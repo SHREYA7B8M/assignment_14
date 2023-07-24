@@ -1,0 +1,19 @@
+The Time Complexity of the Bubble sort for the various scenarios:
+Best Case= when the input array is already sorted, O(n).
+Average Case= O(n^2).
+Worst Case= O(n^2).
+
+
+Comparing Bubble Sort with Insertion Sort, insertion sort is better due to following reasons:-
+  *) They typically require fewer comparisons, as only the necessary ones are made to place current elements, whereas Bubble sort always compares adjacent elements regardless of their relative order.
+   *) They generally perform fewer swaps.
+  It's been observed that Insertion Sort outshines Bubble Sort in respect of performing for partially sorted datasets and smaller arrays.
+
+Strengths:
+  *) Ease of implementation.
+  *) Requires minimal memory usage.
+
+Weaknesses:
+  *) Slow performance.
+  *) Unnecessary comparisions and swaps, even if the array is already sorted.
+  *) Inefficiency in handling larger datasets.
